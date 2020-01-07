@@ -1,0 +1,12 @@
+<beans>
+    <bean id="cat" class="com.zhaolei.mySpring.test.Cat">
+        <property name="name" value="小花"></property>
+    </bean>
+
+    <bean id="people" class="com.zhaolei.mySpring.test.People">
+        <property name="name" value="zhaolei"></property>
+        <property name="address" value="YN"></property>
+        <property name="cat" ref="cat"></property>
+    </bean>
+
+</beans>

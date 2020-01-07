@@ -1,0 +1,7 @@
+自己实现一个简单的spring IOC和AOP功能
+一、IOC
+1.加载对应的xml文件
+2.根据xml中class，id标签加载对应的类了，生成对应的实例
+3.根据xml中的property标签，设置实例属性
+4.将生成的实例放入bean工厂（代码中用map作为spring工厂）
+代码中只考虑属性值为string和另一个类的这种情况
